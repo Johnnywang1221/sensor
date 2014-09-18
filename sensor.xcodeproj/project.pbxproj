@@ -22,6 +22,7 @@
 		04B8866719B45C0100DA3625 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8866619B45C0100DA3625 /* MainPageViewController.m */; };
 		04B8866A19B45C2800DA3625 /* RealTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8866919B45C2800DA3625 /* RealTimeViewController.m */; };
 		04B8866D19B45C3A00DA3625 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8866C19B45C3A00DA3625 /* SettingViewController.m */; };
+		04F1C72419C8569C00ADC409 /* CollectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1C72319C8569C00ADC409 /* CollectionData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		04B8866919B45C2800DA3625 /* RealTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeViewController.m; sourceTree = "<group>"; };
 		04B8866B19B45C3A00DA3625 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		04B8866C19B45C3A00DA3625 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		04F1C72219C8569C00ADC409 /* CollectionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionData.h; sourceTree = "<group>"; };
+		04F1C72319C8569C00ADC409 /* CollectionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		04B8863C19B45B5A00DA3625 /* sensor */ = {
 			isa = PBXGroup;
 			children = (
+				04F1C72119C855E000ADC409 /* model */,
 				04B8864519B45B5A00DA3625 /* AppDelegate.h */,
 				04B8864619B45B5A00DA3625 /* AppDelegate.m */,
 				04B8866519B45C0100DA3625 /* MainPageViewController.h */,
@@ -157,6 +161,15 @@
 				04B8865819B45B5A00DA3625 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F1C72119C855E000ADC409 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04F1C72219C8569C00ADC409 /* CollectionData.h */,
+				04F1C72319C8569C00ADC409 /* CollectionData.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B8864719B45B5A00DA3625 /* AppDelegate.m in Sources */,
+				04F1C72419C8569C00ADC409 /* CollectionData.m in Sources */,
 				04B8866A19B45C2800DA3625 /* RealTimeViewController.m in Sources */,
 				04B8864319B45B5A00DA3625 /* main.m in Sources */,
 				04B8866719B45C0100DA3625 /* MainPageViewController.m in Sources */,
@@ -455,6 +469,7 @@
 				04B8866119B45B5A00DA3625 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B8866219B45B5A00DA3625 /* Build configuration list for PBXNativeTarget "sensorTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +478,7 @@
 				04B8866419B45B5A00DA3625 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
